@@ -1,21 +1,36 @@
-Mover[] movers = new Mover[100];
+Mover[] movers = new Mover[20]; // Declare object
 
 void setup() {
-	size(640,360);
+	size(640, 360);
+	pixelDensity(2);
 	for (int i = 0; i < movers.length; i++){
 		movers[i] = new Mover(random(0.1, 5), 0, random(0, height/2));
 	}
 }
 
 void draw() {
-	background(255);
+	background(0);
 
 	for (int i = 0; i < movers.length; i++) {
-		PVector wind = new PVector(0.03,0);
+		PVector wind = new PVector(0.01, 0); // Wind force
+
+		// Gravity force, Newton's second law
 		float m = movers[i].mass;
-		PVector gravity = new PVector(0,0.15*m);
+		PVector gravity = new PVector(0, 0.1*m);
+
+		// Friction force
+		float c = 0.01;
+		PVector friction = movers[i].velocity.get();
+		friction.mult(-1);
+		friction.normalize();
+		friction.mult(c);
+
+		// Applying forces
+		movers[i].applyForce(friction);
 		movers[i].applyForce(wind);
 		movers[i].applyForce(gravity);
+
+		// Position, display and checking for edges
 		movers[i].update();
 		movers[i].display();
 		movers[i].checkEdges();
@@ -30,15 +45,15 @@ class Mover {
 	float size;
 
 	Mover(float m, float x, float y) {
-		position = new PVector(x,y);
-		velocity = new PVector(0,0);
-		acceleration = new PVector(0,0);
+		position = new PVector(x, y);
+		velocity = new PVector(0, 0);
+		acceleration = new PVector(0, 0);
 		mass = m;
 		size = m*10;
 	}
 
 	void applyForce(PVector force) {
-		PVector f = PVector.div(force,mass);
+		PVector f = PVector.div(force, mass);
 		acceleration.add(f);
 	}
 
@@ -49,8 +64,9 @@ class Mover {
 	}
 
 	void display() {
-		noStroke();
-		fill(127);
+		stroke(255, 80);
+		strokeWeight(2);
+		noFill();
 		ellipse(position.x, position.y, size, size);
 	}
 
