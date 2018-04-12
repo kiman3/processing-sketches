@@ -44,6 +44,7 @@ class Mover {
 	PVector velocity;
 	PVector acceleration;
 	float mass;
+	float massNormal;
 	float size;
 
 	Mover(float m, float x, float y) {
@@ -51,7 +52,8 @@ class Mover {
 		velocity = new PVector(0, 0);
 		acceleration = new PVector(0, 0);
 		mass = m;
-		size = m*10;
+		massNormal = map(m, 0.1, 5, 1, 5); // Map for size calculation
+		size = 50/massNormal; // Inverted size calc
 	}
 
 	void applyForce(PVector force) {
