@@ -34,7 +34,7 @@ class Mover{
 		PVector mouse = new PVector(mouseX, mouseY);
 		PVector dir = PVector.sub(mouse, location);
 		dir.normalize();
-		dir.mult(0.5);
+		dir.mult(0.25);
 		acceleration = dir;
 		velocity.add(acceleration);
 		velocity.limit(topspeed);
