@@ -14,16 +14,18 @@ void draw() {
 	for (int i = 0; i < movers.length; i++) {
 		PVector wind = new PVector(0.01, 0); // Wind force
 
-		// Gravity force, Newton's second law
+		// Gravity force scaled by mass, Newton's second law
 		float m = movers[i].mass;
 		PVector gravity = new PVector(0, 0.1*m);
 
 		// Friction force
 		float c = 0.01;
+		float normal = 1;
+		float frictionMag = c*normal; // Magnitude of friction
 		PVector friction = movers[i].velocity.get();
 		friction.mult(-1);
 		friction.normalize();
-		friction.mult(c);
+		friction.mult(frictionMag);
 
 		// Applying forces
 		movers[i].applyForce(friction);
