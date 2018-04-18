@@ -1,0 +1,701 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"has",
+				"hasClass"
+			],
+			[
+				"news",
+				"newsletter-layer"
+			],
+			[
+				"pos",
+				"pos-r\tposition: relative;"
+			],
+			[
+				"scro",
+				"scrollBottom"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"inView",
+				"inViewClasses"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"activities",
+				"activitiesBtn"
+			],
+			[
+				"the_",
+				"the_sub_field"
+			],
+			[
+				"the",
+				"the_sub_field"
+			],
+			[
+				"google",
+				"googleAnalyitcsCode"
+			],
+			[
+				"is",
+				"isDraggable"
+			],
+			[
+				"mouse",
+				"mousemove"
+			],
+			[
+				"fade",
+				"fadeToggle"
+			],
+			[
+				"viny",
+				"vinylImg"
+			],
+			[
+				"k",
+				"kaleidoscopeVinyl"
+			],
+			[
+				"transfor",
+				"transformValue"
+			],
+			[
+				"pos-",
+				"pos-f\tposition: fixed;"
+			],
+			[
+				"w",
+				"w\twidth"
+			],
+			[
+				"di",
+				"d-if\tdisplay: inline-flex;"
+			],
+			[
+				"hero",
+				"heroImg"
+			],
+			[
+				"pr",
+				"pos-r\tposition: relative;"
+			],
+			[
+				"p",
+				"pos-a\tposition: absolute;"
+			],
+			[
+				"t",
+				"table-cell"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"backgru",
+				"background-clip"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"option",
+				"option"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"tex",
+				"text-indent"
+			],
+			[
+				"b",
+				"border"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"su",
+				"subpixel-antialiased"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"ta",
+				"table-footer-group"
+			],
+			[
+				"background",
+				"background-clip"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"n",
+				"none"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "liquid/liquid.pde",
+			"settings":
+			{
+				"buffer_size": 2669,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "landscape/landscape.pde",
+			"settings":
+			{
+				"buffer_size": 2170,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "forces/forces.pde",
+			"settings":
+			{
+				"buffer_size": 1905,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "perlinwalker/perlinwalker.pde",
+			"settings":
+			{
+				"buffer_size": 379,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Processing/Build Systems/Processing.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Processing/Build Systems/Processing.sublime-build",
+					""
+				],
+				[
+					"Packages/Processing/Build Systems/Processing.sublime-build",
+					"Re-run sketch"
+				],
+				[
+					"Packages/Processing/Build Systems/Processing.sublime-build",
+					"Run sketch (Processing 3 only)"
+				],
+				[
+					"Packages/Processing/Build Systems/Processing.sublime-build",
+					"Run sketch fullscreen"
+				],
+				[
+					"Packages/Processing/Build Systems/Processing.sublime-build",
+					"Export sketch as application"
+				],
+				[
+					"Packages/Processing/Build Systems/Processing.sublime-build",
+					"Kill running sketches"
+				]
+			],
+			[
+				"Packages/Processing/Build Systems/Processing.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"Snippet",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"Package Control: In",
+				"Package Control: Install Package"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/kim/Documents/Sites/dev/processing"
+	],
+	"file_history":
+	[
+		"/Users/kim/Documents/Sites/dev/processing/readme.md",
+		"/Users/kim/Documents/Sites/dev/processing/landscape/landscape.pde",
+		"/Users/kim/Documents/Sites/dev/processing/snapper/snapper.pde",
+		"/Users/kim/Documents/Sites/dev/processing/warpgrid/warpgrid.pde",
+		"/Users/kim/Documents/Sites/dev/processing/moverinteraction/moverinteraction.pde",
+		"/Users/kim/Documents/Sites/dev/processing/walker/walker.pde",
+		"/Users/kim/Documents/Sites/dev/processing/ballspeed/ballspeed.pde",
+		"/Users/kim/Documents/Sites/dev/processing/perlinwalker/perlinwalker.pde",
+		"/Users/kim/Documents/Sites/dev/processing/noisecolor/noisecolor.pde",
+		"/Users/kim/Documents/Sites/dev/processing/noiseColor/noisecolor",
+		"/Users/kim/Documents/Sites/uvdal2/wp-content/themes/uvdal2/template-parts/content-single-historier.php",
+		"/Users/kim/Documents/Sites/uvdal2/wp-content/themes/uvdal2/template-parts/front-page/front-bigmap.php",
+		"/Users/kim/Documents/Sites/uvdal2/wp-content/themes/uvdal2/template-parts/content-single-uvdalskisenter.php",
+		"/Users/kim/Documents/Sites/uvdal2/wp-content/themes/uvdal2/template-parts/content-single-aktor.php",
+		"/Users/kim/Documents/Sites/uvdal2/wp-content/themes/uvdal2/header.php",
+		"/Users/kim/Documents/Sites/uvdal2/wp-content/themes/uvdal2/template-parts/content-single-hytteomrade.php",
+		"/Users/kim/Documents/Sites/uvdal2/wp-content/themes/uvdal2/template-parts/content-single-hytterogtomter.php",
+		"/Users/kim/Documents/Sites/uvdal2/wp-content/themes/uvdal2/template-parts/front-page/aktivitets-kalender.php",
+		"/Users/kim/Documents/Sites/uvdal2/wp-content/themes/uvdal2/template-parts/front-page/post-one.php",
+		"/Users/kim/Documents/Sites/uvdal2/wp-content/themes/uvdal2/template-parts/front-page/post-four.php",
+		"/Users/kim/Documents/Sites/uvdal2/wp-content/themes/uvdal2/template-parts/front-page/post-two.php",
+		"/Users/kim/Documents/Sites/uvdal2/wp-content/themes/uvdal2/functions.php",
+		"/Users/kim/Documents/Sites/uvdal2/wp-content/themes/uvdal2/template-parts/front-page/post-three.php",
+		"/Users/kim/Documents/Sites/uvdal2/wp-content/themes/uvdal2/footer.php",
+		"/Users/kim/Documents/Sites/uvdal2/wp-content/themes/uvdal2/README.md",
+		"/Users/kim/Documents/Sites/uvdal2/wp-content/themes/uvdal2/css/bootstrap-grid.css",
+		"/Users/kim/Documents/Sites/uvdal2/wp-content/themes/uvdal2/index.php",
+		"/Users/kim/Documents/Sites/personae/header-common.php",
+		"/Users/kim/Documents/Sites/personae/assets/img/personae-logo.php",
+		"/Users/kim/Documents/Sites/personae/header.php",
+		"/Users/kim/Documents/Sites/personae/footer.php",
+		"/Users/kim/Documents/Sites/personae/article-text.php",
+		"/Users/kim/Documents/Sites/personae/css/normalize-opentype-min.scss",
+		"/Users/kim/Documents/Sites/barr/wp-content/themes/barr/functions.php",
+		"/Users/kim/Documents/Sites/barr/wp-content/themes/barr/template-parts/page-flexible-content.php",
+		"/Users/kim/Documents/Sites/barr/wp-content/themes/barr/assets/js/vendor.js",
+		"/Users/kim/Documents/Sites/barr/wp-content/themes/barr/assets/css/wysiwyg.scss",
+		"/Users/kim/Documents/Sites/barr/wp-content/themes/barr/assets/js/jquery-2.2.4.min.js",
+		"/Users/kim/Documents/Sites/barr/wp-content/themes/barr/template-parts/content-page.php",
+		"/Users/kim/Documents/Sites/barr/wp-content/themes/barr/template-parts/content-news.php",
+		"/Users/kim/Documents/Sites/barr/wp-content/themes/barr/page-news.php",
+		"/Users/kim/Documents/Sites/barr/wp-config.php",
+		"/Users/kim/Documents/Sites/barr/wp-content/themes/barr/footer.php",
+		"/Users/kim/Documents/Sites/barr/wp-content/themes/barr/index.php",
+		"/Users/kim/Documents/Sites/barr/wp-content/themes/barr/assets/img/pattern.svg",
+		"/Users/kim/Documents/Sites/barr/wp-content/themes/barr/assets/js/vendor-min.js",
+		"/Users/kim/Documents/Sites/barr/wp-content/themes/barr/.gitignore",
+		"/Users/kim/Documents/Sites/barr/wp-content/themes/barr/page.php",
+		"/Users/kim/Documents/Sites/barr/wp-content/themes/barr/style.scss",
+		"/Users/kim/Documents/Sites/dev/barr-prototype/.gitignore",
+		"/Users/kim/Documents/Sites/dev/barr-placeholder/analyticstracking.php",
+		"/Users/kim/Documents/Sites/dev/barr-placeholder/analytics.php",
+		"/Users/kim/Documents/Sites/dev/barr-placeholder/assets/js/jquery.unveil.js",
+		"/Users/kim/Documents/Sites/dev/barr-placeholder/assets/img/defs.svg",
+		"/Users/kim/Documents/Sites/dev/barr-placeholder/README.md",
+		"/Users/kim/Documents/Sites/dev/barr-placeholder/assets/style.css",
+		"/Users/kim/Documents/Sites/dev/barr-placeholder/style.scss",
+		"/Users/kim/Documents/Sites/dev/barr-placeholder/pattern.php",
+		"/Users/kim/Documents/Sites/dev/fundament/style.scss",
+		"/Users/kim/Documents/Sites/dev/fundament/js/vendor.js",
+		"/Users/kim/Documents/Sites/dev/fundament/js/site.js",
+		"/Users/kim/Documents/Sites/dev/fundament/index.php",
+		"/Users/kim/Documents/Sites/dev/fundament/header.php",
+		"/Users/kim/Documents/Sites/dev/fundament/footer.php",
+		"/Users/kim/Documents/Sites/dev/npm-test/package.json",
+		"/Users/kim/Documents/Sites/fintsted/historien.php",
+		"/Users/kim/Documents/Sites/fintsted/parken.php",
+		"/Users/kim/Documents/Sites/fintsted/style.scss",
+		"/Users/kim/Documents/Sites/fintsted/css/normalize-opentype-min.scss",
+		"/Users/kim/Documents/Sites/fintsted/css/normalize-min.scss",
+		"/Users/kim/Documents/Sites/dev/barr-02/css/grid.scss",
+		"/Users/kim/Library/Caches/Cleanup At Startup/Transmit/C9737042-B8EF-42D5-961D-307F0BBF5ED5/weather.php",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/header.php",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/templates/headers/part/menu-btn.php",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/templates/content-types/pagelink.php",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/templates/content-types/map.php",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/templates/content-types/table.php",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/templates/content-types/textblock.php",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/single.php",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/js/vendor.js",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/js/main.js",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/templates/headers/part/menu.php",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/weather/weather.php",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/css/grid.scss",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/templates/content-types/expandable.php",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/templates/headers/header-page.php",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/templates/flexible-content.php",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/templates/headers/part/weather/weather.php",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/css/defs.svg",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/template-parts/content.php",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/functions.php",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/templates/headers/part/id-nav-aside.php",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/templates/headers/header-frontpage.php",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/inc/template-tags.php",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/js/jquery-2.2.4.min.js",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/templates/headers/header-archive.php",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/templates/headers/header-single.php",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/templates/headers/header-subpage.php",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/footer.php",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/404.php",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/archive.php",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/search.php",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/template-parts/content-none.php",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/index.php",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/js/svg4everybody.min.js",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/templates/headers/part/sidebar.php",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/archive-news.php",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/js/site.js",
+		"/Users/kim/Documents/Sites/dev/nn-wp/wp-content/themes/nasjonalparker/templates/headers/part/id-nav.php",
+		"/Users/kim/Documents/Sites/dev/nn-1/js/flexibility.js",
+		"/Users/kim/Documents/Sites/dev/nn-1/archive.php",
+		"/Users/kim/Documents/Sites/dev/nn-1/css/fonts.scss",
+		"/Users/kim/Documents/Sites/dev/nn-1/js/jquery.inview.min.js",
+		"/Users/kim/Documents/Sites/dev/index-2/style.scss",
+		"/Users/kim/Documents/Sites/dev/index-2/header.php",
+		"/Users/kim/Documents/Sites/dev/index-2/index.php",
+		"/Users/kim/Documents/Sites/dev/kj-a/js/site.js",
+		"/Users/kim/Documents/Sites/dev/kj-a/style.scss",
+		"/Users/kim/Documents/Sites/dev/kj-a/index.php",
+		"/Users/kim/Documents/Sites/dev/kj-a/header.php",
+		"/Users/kim/Documents/Sites/dev/nn-1/index-2.php",
+		"/Users/kim/Documents/Sites/dev/nn-1/css/defs.svg",
+		"/Users/kim/Documents/Sites/dev/nn-1/style.scss",
+		"/Users/kim/Documents/Sites/dev/nn-1/header-2.php",
+		"/Users/kim/Documents/Sites/kildaphew/wp-content/themes/kildaphew/css/defs.svg",
+		"/Users/kim/Documents/Sites/dev/nn-1/css/grid.scss",
+		"/Users/kim/Documents/Sites/dev/index-2/footer.php",
+		"/Users/kim/Documents/Sites/dev/index-2/upload.php"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "liquid/liquid.pde",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2669,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								214,
+								214
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Processing/Syntaxes/Processing.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "landscape/landscape.pde",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2170,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								246,
+								246
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Processing/Syntaxes/Processing.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "forces/forces.pde",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1905,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								526,
+								526
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Processing/Syntaxes/Processing.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "perlinwalker/perlinwalker.pde",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 379,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								299,
+								299
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Processing/Syntaxes/Processing.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 138.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "processing.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 245.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
