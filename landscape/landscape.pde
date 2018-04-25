@@ -82,6 +82,7 @@ class Landscape {
         // each quad's color is determined by the height value at each vertex
         // (clean this part up)
         stroke(#ff69b4);
+        stroke(#bbbbbb);
         float currentElevation = z[x][y];
         float currentShade = map(currentElevation, -120, 120, 0, 255);
         // fill(currentShade, 255);
