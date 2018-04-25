@@ -33,11 +33,11 @@ public void setup() {
 public void draw() {
 
   // Ok, visualize the landscape space
-  background(0);
+  background(255);
   pushMatrix();
   translate(width/2,height/2+20,-160);
   rotateX(PI/3);
-  rotateZ(theta);
+  // rotateZ(theta);
   land.render(); 
   popMatrix();
 
@@ -97,7 +97,7 @@ class Landscape {
         // one quad at a time
         // each quad's color is determined by the height value at each vertex
         // (clean this part up)
-        stroke(255);
+        stroke(0xffff69b4);
         float currentElevation = z[x][y];
         float currentShade = map(currentElevation, -120, 120, 0, 255);
         // fill(currentShade, 255);
